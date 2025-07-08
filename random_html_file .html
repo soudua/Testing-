@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whimsical HTML Page</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to right, #f0f0f0, #c0ffee);
+            color: #2c3e50;
+            padding: 2rem;
+        }
+        .box {
+            background-color: #fffaf0;
+            padding: 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>✨ Welcome to the Land of Nonsense ✨</h1>
+        <p>Bananas aren't blue, unless you're dreaming in algorithms.</p>
+        <p>Click the invisible button below to summon a toast ghost:</p>
+        <button style="opacity: 0; height: 0; width: 0;">👻</button>
+        <p>Here's a haiku for you:</p>
+        <blockquote>
+            Electric jelly<br>
+            Bounces through the sky laughing—<br>
+            Bytes rain down like frogs.
+        </blockquote>
+    </div>
+</body>
+</html>
